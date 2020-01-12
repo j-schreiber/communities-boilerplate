@@ -1,0 +1,18 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+# DX files
+package.xml
+
+# LWC configuration files & tests
+**/jsconfig.json
+**/.eslintrc.json
+**/__tests__/**
+
+# Incompatible metadata that may cause push/pull errors (because it is not yet supported)
+# regularily review here: https://developer.salesforce.com/docs/metadata-coverage
+OrderStatus.standardValueSet
+*.settings
+*.appMenu-meta
+*.profile-meta

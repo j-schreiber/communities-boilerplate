@@ -1,0 +1,21 @@
+{
+  "orgName": "Partner Billing GmbH",
+  "edition": "Enterprise",
+  "features": ["StateAndCountryPicklist", "MultiCurrency", "Communities"],
+  "country": "DE",
+  "language": "en_US",
+  "settings": {
+    "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+    },
+    "pathAssistantSettings": {
+        "pathAssistantEnabled": true
+    },
+    "languageSettings": {
+        "enableTranslationWorkbench": true
+    },
+    "chatterSettings": {
+        "enableChatter": true
+    }
+  }
+}
