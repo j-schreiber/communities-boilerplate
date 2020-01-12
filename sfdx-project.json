@@ -2,10 +2,17 @@
     "packageDirectories": [
         {
             "path": "force-app",
+            "package": "Communities Boilerplate",
+            "versionName": "0.1",
+            "versionNumber": "0.1.0.NEXT",
             "default": true
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "47.0"
+    "sourceApiVersion": "47.0",
+    "packageAliases": {
+        "Communities Boilerplate": "0Ho4P000000GmihSAC",
+        "Communities Boilerplate@0.1.0-1": "04t4P000002KiuWQAS"
+    }
 }
